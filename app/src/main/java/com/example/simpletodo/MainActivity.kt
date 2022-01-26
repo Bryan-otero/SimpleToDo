@@ -19,6 +19,9 @@ class MainActivity : AppCompatActivity() {
     lateinit var adapter: TaskItemAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        setTheme(R.style.ThemeSimpleToDo)
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
